@@ -1,0 +1,40 @@
+
+ .container1 {
+  background: linear-gradient(to right,#6a1b9a,#ad1457);
+  text-align: center;
+  height: 100vh;
+}
+
+.container2 {
+  background-image: url(../img/fondo2.jpg);
+  text-align: center;
+  height: 100vh;
+  text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+  [class*="col-"]{
+    max-width: 100%;
+    line-height: 0;
+	}
+  
+  .logo1 img {
+	text-align: center;
+	width: 200%;
+  margin-top: 200%;
+  margin-left: -25px;
+  }
+
+  .logo2 {
+  text-align: center;
+	width: 300%;
+	margin-top: 210px;
+  margin-left: -34px;
+  }
+
+  .button {
+  	margin-top: 170%;
+  }
+
+  }
+
