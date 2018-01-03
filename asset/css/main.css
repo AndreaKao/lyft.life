@@ -1,16 +1,19 @@
 
+ /* Primer Container */
  .container1 {
   background: linear-gradient(to right,#6a1b9a,#ad1457);
   text-align: center;
   height: 100vh;
 }
 
+ /* Segundo Container */
 .container2 {
   background-image: url(../img/fondo2.jpg);
   text-align: center;
   height: 100vh;
   text-transform: uppercase;
 }
+/* Tamaño para celular */
 
 @media (max-width: 767px) {
   [class*="col-"]{
@@ -19,22 +22,35 @@
 	}
   
   .logo1 img {
-	text-align: center;
-	width: 200%;
-  margin-top: 200%;
-  margin-left: -25px;
-  }
+  	text-align: center;
+  	width: 200%;
+    margin-top: 200%;
+    margin-left: -25px;
+    }
 
   .logo2 {
-  text-align: center;
-	width: 300%;
-	margin-top: 210px;
-  margin-left: -34px;
-  }
+    text-align: center;
+  	width: 210%;
+  	margin-top: 20px;
+    margin-left: 0;
+    }
 
-  .button {
-  	margin-top: 170%;
-  }
+  .logo3 {
+    text-align: center;
+    width: 15vh;
+    margin-top: 1em;
+    }
+
+  .btn {
+    margin-top: 3em;
+    border-radius: 5px;
+    border: 2px solid #fff;
+
+    }
+/* Container 3*/
+  .container3 {
+    text-align: center;
+    }
 
   }
 
